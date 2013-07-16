@@ -45,5 +45,8 @@ public class Setup {
 			Data.classType = 3;
 		}
 		System.out.println("You picked the " + Data.classType + " class, right?");
+		} else if (intput.next().equalsIgnoreCase("yes")) {
+		System.out.println("You are now a master of" + Data.classType + "!");
+		}
 	}
 }
